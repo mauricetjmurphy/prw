@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # resume-website
 GitHub repo for resume-website
 =======
@@ -42,4 +41,3 @@ The site is deployed on an AWS S3 bucket using Terraform. Follow these steps to 
    ```bash
    terraform apply
    ```
->>>>>>> dev
