@@ -33,7 +33,7 @@ const CareerItemContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    width: calc(100vw / 3);
+    width: calc(100vw / 4);
     z-index: 5;
     text-align: center;
     cursor: pointer;
@@ -57,11 +57,17 @@ function CareerTopMenu({ jobNum, setJobNum }: CareerTopMenuPropTypes) {
                 onClick={() => setJobNum(2)}
                 className={jobNum === 2 ? 'active' : 'not-active'}
             >
-                <span>Freelance</span>
+                <span>Fifty One Degrees</span>
             </CareerItemContainer>
             <CareerItemContainer
                 onClick={() => setJobNum(3)}
                 className={jobNum === 3 ? 'active' : 'not-active'}
+            >
+                <span>Freelance</span>
+            </CareerItemContainer>
+            <CareerItemContainer
+                onClick={() => setJobNum(4)}
+                className={jobNum === 4 ? 'active' : 'not-active'}
             >
                 <span>Foster & Partners</span>
             </CareerItemContainer>

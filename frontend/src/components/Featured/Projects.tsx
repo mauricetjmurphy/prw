@@ -67,7 +67,10 @@ const Projects = () => {
         <ProjectsContainer id="projects">
             <Title number={'02.'} title={'Projects'} />
             <ProjectItem>
-                <ProjectImageContainer href="/" rel="noreferrer">
+                <ProjectImageContainer
+                    href="https://documated.com"
+                    rel="noreferrer"
+                >
                     <img
                         style={{ width: '100%' }}
                         src={data.imageOne}

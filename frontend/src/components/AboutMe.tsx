@@ -195,27 +195,20 @@ function AboutMe() {
                     <TextContainer>
                         <div>
                             <MainText>
-                                Hello! My name is Maurice and I am an
-                                experienced software engineer with a passion for
-                                developing applications and creating innovative
-                                solutions. My background in computer science,
-                                artificial intelligence, and machine learning,
-                                combined with my skills in multiple tech stacks,
-                                including Python, Flask, Django, React, and
-                                TypeScript, have allowed me to excel in various
-                                roles, from software engineer at NBC Universal
-                                to Freelance software engineer and Architectural
-                                BIM Technologist at Foster & Partners.
+                                Hello! My name is Maurice and I'm an AWS-certified Senior Software Engineer
+                                with 6+ years of technical experience building scalable web applications, cloud infrastructure,
+                                and data-driven solutions at NBCUniversal, Foster + Partners, and leading tech companies.
+                                I specialize in React/TypeScript frontend development, AWS cloud architecture, and turning
+                                complex data into actionable insights.
                                 <br></br>
                                 <br></br>
-                                My portfolio and personal projects showcases my
-                                ability to design, develop, and deploy web
-                                applications, e-commerce websites, and machine
-                                learning models. I am also skilled in design
-                                tools such as Balsamiq, Figma, and Adobe. I am
-                                an effective communicator, a strategic thinker
-                                and continuously motivated to improve my skills
-                                and further my success in this field.
+                                At NBCUniversal, I've led development on high-traffic streaming platforms, reducing
+                                application load times by 40% and establishing testing frameworks that cut production
+                                bugs by 60%. I architect AWS infrastructure using Terraform, build microservices in
+                                Golang, and mentor development teams to deliver measurable improvements in performance
+                                and business outcomes. My background spans software engineering, data analytics, and
+                                architectural technology at Foster + Partners, giving me a unique perspective on building
+                                robust, user-centered digital experiences.
                             </MainText>
                         </div>
                     </TextContainer>

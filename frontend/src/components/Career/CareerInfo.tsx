@@ -76,10 +76,7 @@ function CareerInfo({ jobNum }: CareerInfoPropTypes) {
         <CareerInfoContainer>
           <h1>
             {data[1].position}
-            <Link to="https://www.fosterandpartners.com" target="_blank">
-              {" "}
-              @ {data[1].companyName}
-            </Link>
+            <Link to="#projects"> @ {data[1].companyName}</Link>
           </h1>
           <SecondaryTitle>
             {data[1].location} | {data[1].dates}
@@ -92,21 +89,38 @@ function CareerInfo({ jobNum }: CareerInfoPropTypes) {
             ))}
           </ul>
         </CareerInfoContainer>
+      ) : jobNum === 3 ? (
+        <CareerInfoContainer>
+          <h1>
+            {data[2].position}
+            <Link to="#projects"> @ {data[2].companyName}</Link>
+          </h1>
+          <SecondaryTitle>
+            {data[2].location} | {data[2].dates}
+          </SecondaryTitle>
+          <ul>
+            {data[2].tasks.map((el, i) => (
+              <li key={i}>
+                <p>{el}</p>
+              </li>
+            ))}
+          </ul>
+        </CareerInfoContainer>
       ) : (
-        jobNum === 3 && (
+        jobNum === 4 && (
           <CareerInfoContainer>
             <h1>
-              {data[2].position}
-              <Link to="https://bdp-pattern.com" target="_blank">
+              {data[3].position}
+              <Link to="https://www.fosterandpartners.com" target="_blank">
                 {" "}
-                @ {data[2].companyName}
+                @ {data[3].companyName}
               </Link>
             </h1>
             <SecondaryTitle>
-              {data[2].location} | {data[2].dates}
+              {data[3].location} | {data[3].dates}
             </SecondaryTitle>
             <ul>
-              {data[2].tasks.map((el, i) => (
+              {data[3].tasks.map((el, i) => (
                 <li key={i}>
                   <p>{el}</p>
                 </li>

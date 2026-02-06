@@ -61,6 +61,12 @@ function CareerSideMenu({ jobNum, setJobNum }: CareerSideMenuPropTypes) {
       >
         <span>{data[2].companyName}</span>
       </CareerItemContainer>
+      <CareerItemContainer
+        onClick={() => setJobNum(4)}
+        className={jobNum === 4 ? "active" : "not-active"}
+      >
+        <span>{data[3].companyName}</span>
+      </CareerItemContainer>
     </MainContainer>
   )
 }

@@ -91,12 +91,12 @@ const Hero = () => {
         <HeroContainer id="hero">
             <h2>Hi, my name is</h2>
             <h1>Maurice Murphy.</h1>
-            <p className="personal-statement">I develop things for the web.</p>
+            <p className="personal-statement">I build scalable web applications.</p>
             <p className="personal-description">
-                I'm a software engineer specializing in building (and
-                occasionally designing) exceptional digital experiences.
-                Currently, I'm focused on building accessible, human-centered
-                products that everybody can use.
+                I'm an AWS-certified Senior Software Engineer specializing in React/TypeScript
+                frontend development, cloud infrastructure, and data-driven solutions.
+                Currently at NBCUniversal, I build high-performance streaming platforms
+                that serve millions of users.
             </p>
 
             <span style={{ marginTop: '20px' }}>
